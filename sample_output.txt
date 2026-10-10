@@ -1,0 +1,98 @@
+Operator precedence demo (10 + 5*2 - 6/3) = 18.0
+Welcome to the Electricity Bill Management System
+
+
+===== MAIN MENU =====
+1. Display all bills
+2. Search consumer by number
+3. Add a new consumer
+4. Total revenue & consumer count
+5. Polymorphism demo (interface + parent reference)
+6. Classify consumers by type
+7. Exit
+Enter your choice (1-7): 1
+[DOMESTIC] Consumer[No.=DC001  Name=Ravi Kumar           Type=DOMESTIC   Units=90   Bill=Rs.480.00]
+[DOMESTIC] Consumer[No.=DC002  Name=Sita Devi            Type=DOMESTIC   Units=150  Bill=Rs.800.00]
+[COMMERCIAL] Consumer[No.=CC001  Name=Green Mart           Type=COMMERCIAL Units=400  Bill=Rs.3280.00]
+[COMMERCIAL] Consumer[No.=CC002  Name=City Bakery          Type=COMMERCIAL Units=250  Bill=Rs.2080.00]
+[INDUSTRIAL] Consumer[No.=IC001  Name=Steel Works Pvt Ltd  Type=INDUSTRIAL Units=2000 Bill=Rs.20050.00]
+
+===== MAIN MENU =====
+1. Display all bills
+2. Search consumer by number
+3. Add a new consumer
+4. Total revenue & consumer count
+5. Polymorphism demo (interface + parent reference)
+6. Classify consumers by type
+7. Exit
+Enter your choice (1-7): 5
+Parent-ref .toString() -> [INDUSTRIAL] Consumer[No.=IC001  Name=Steel Works Pvt Ltd  Type=INDUSTRIAL Units=2000 Bill=Rs.20050.00]
+Interface-ref .calculateBill() -> Rs. 480.00
+Connection type via enum: INDUSTRIAL
+
+===== MAIN MENU =====
+1. Display all bills
+2. Search consumer by number
+3. Add a new consumer
+4. Total revenue & consumer count
+5. Polymorphism demo (interface + parent reference)
+6. Classify consumers by type
+7. Exit
+Enter your choice (1-7): 4
+Total Revenue     : Rs. 26690.00
+Rounded (int cast): Rs. 26690
+Total Consumers Ever Created: 5
+
+===== MAIN MENU =====
+1. Display all bills
+2. Search consumer by number
+3. Add a new consumer
+4. Total revenue & consumer count
+5. Polymorphism demo (interface + parent reference)
+6. Classify consumers by type
+7. Exit
+Enter your choice (1-7): 6
+---- Consumer Classification ----
+Domestic   : 2
+Commercial : 2
+Industrial : 1
+
+===== MAIN MENU =====
+1. Display all bills
+2. Search consumer by number
+3. Add a new consumer
+4. Total revenue & consumer count
+5. Polymorphism demo (interface + parent reference)
+6. Classify consumers by type
+7. Exit
+Enter your choice (1-7): 3
+Enter consumer name: Amit Verma
+  -> Parsed name: First = Amit, Last = Verma
+Enter consumer number (e.g. DC003): DC003
+Enter units consumed: 60
+Select connection type: 1-Domestic  2-Commercial  3-Industrial
+Your choice: 1
+Added successfully: [DOMESTIC] Consumer[No.=DC003  Name=Amit Verma           Type=DOMESTIC   Units=60   Bill=Rs.330.00]
+
+===== MAIN MENU =====
+1. Display all bills
+2. Search consumer by number
+3. Add a new consumer
+4. Total revenue & consumer count
+5. Polymorphism demo (interface + parent reference)
+6. Classify consumers by type
+7. Exit
+Enter your choice (1-7): 2
+Enter consumer number to search: cc002
+Found -> [COMMERCIAL] Consumer[No.=CC002  Name=City Bakery          Type=COMMERCIAL Units=250  Bill=Rs.2080.00]
+
+===== MAIN MENU =====
+1. Display all bills
+2. Search consumer by number
+3. Add a new consumer
+4. Total revenue & consumer count
+5. Polymorphism demo (interface + parent reference)
+6. Classify consumers by type
+7. Exit
+Enter your choice (1-7): 7
+Exiting. Thank you for using the system!
